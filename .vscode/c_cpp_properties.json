@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "DEBUG",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "EXTRAPLANET"
+            ],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-gcc-x64"
+        }
+    ],
+    "version": 4
+}
