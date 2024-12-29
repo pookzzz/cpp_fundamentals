@@ -4,6 +4,7 @@
             "label": "Debug",
             "command": "gcc",
             "args": [
+                "-std=c11",
                 "-g",
                 "-o",
                 "debug.out",
@@ -15,7 +16,7 @@
             "label": "C/C++: g++ build active file",
             "command": "/usr/bin/g++",
             "args": [
-                "-fdiagnostics-color=always",
+                "-std=c11",
                 "-g",
                 "${file}",
                 "-o",
@@ -38,7 +39,7 @@
             "label": "C/C++: g++-13 build active file",
             "command": "/usr/local/bin/g++-13",
             "args": [
-                "-fdiagnostics-color=always",
+                "-std=c11",
                 "-g",
                 "${file}",
                 "-o",
